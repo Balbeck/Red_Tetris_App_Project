@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/hector/Desktop/Red_Teris_42_Engineering/Red_Tetris_Projet/client && npm install 2>&1 | tail -10)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const pkg = require\\('./node_modules/next/package.json'\\); console.log\\('Next.js installed:', pkg.version\\)\")",
+      "Bash(npm test:*)"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+export declare const Events: {
+    readonly JOIN_ROOM: "JOIN_ROOM";
+    readonly START_GAME: "START_GAME";
+    readonly REQUEST_PIECE: "REQUEST_PIECE";
+    readonly UPDATE_SPECTRUM: "UPDATE_SPECTRUM";
+    readonly LINES_CLEARED: "LINES_CLEARED";
+    readonly GAME_OVER_PLAYER: "GAME_OVER_PLAYER";
+    readonly RESTART_GAME: "RESTART_GAME";
+    readonly ROOM_STATE: "ROOM_STATE";
+    readonly PLAYER_JOINED: "PLAYER_JOINED";
+    readonly PLAYER_LEFT: "PLAYER_LEFT";
+    readonly HOST_CHANGED: "HOST_CHANGED";
+    readonly GAME_STARTED: "GAME_STARTED";
+    readonly NEW_PIECE: "NEW_PIECE";
+    readonly SPECTRUM_UPDATE: "SPECTRUM_UPDATE";
+    readonly PENALTY_LINES: "PENALTY_LINES";
+    readonly PLAYER_ELIMINATED: "PLAYER_ELIMINATED";
+    readonly GAME_OVER: "GAME_OVER";
+    readonly ERROR: "ERROR";
+};
+export type EventName = typeof Events[keyof typeof Events];
